@@ -50,9 +50,9 @@ public class AzulConfig {
 @Bean
 public DynamoDbClient getDynamoDbClient() {
     AwsSessionCredentials awsCreds = AwsSessionCredentials.create(
-            "ASIATZZ7OPKK3WDCMF5T",
-            "VRo8t8WHroRxAdXN0EwAfSIl4Sgg79IUgdSMv/5V",
-            "FwoGZXIvYXdzEIL//////////wEaDGh8NlKX9nFroGSipCLFAXTMsZyH11+HDGjzzZhHoEpQP/DMXOzItkYdjqPDiNWH7VRxT6Tf4ftJIZhk3kL8KSsLxtBVx76FVK0IrOU6S1miJoKTi4lqvUJnTHtZKPGotW+Jx1LzwjohWSt2qT75SVGsVzivInEjhgL3/+TwKnqhy/OEGVMnYFTszyAcbhcDugk6zYK8UAf2rDMEDdiiYft7u/JBjs7wSLnavWIbCQ1TOH2G1xKi1I3mD3lnVwSOxhBXEI1CV/WkyCbNEpVGItscgL2hKMDt9JMGMi2KDgkaRClZmKzsAf6vAxAhkuIyHKRVJ/VoNVUt1S7cOY7rStfuyXV/YuDmNYc=");
+            "ASIATZZ7OPKK4WQAJYVY",
+            "M4vzs1B9fj6rgJn3OEnHRJGVaNRoxLh8jchSSa9A",
+            "FwoGZXIvYXdzEIj//////////wEaDGeWOd5EH7DFCh5TaiLFAWY5csmS90GyazGG1hyTowvlRiq+ZAmqPodNkU3nRQJIYozjOoFEWGLnfZ9Ie2p5vzMYv8t98ctjIbX/K2wlcEXyuRSEH8cWARQZqaIDnAAVKmDxGo9ur5J7BnAnbR882MHf+ans3fBQvKHQUaHKS/f8+dkFXUxMMSiOFg97kGTWYSoILxlMP4qYtm3RiQrkGSqXE7TevE7jPtz3yepm1KYXYvd6qqkC35N+AzNTx8lkB379BU73RKE/hB7UPFiWaUv7ZxqhKKiZ9pMGMi0Po/C0RalLd5FmTWU5MeSm4MnESFTw4lqkyoVWimlLOocbhnDM9BZg5ThYwMA=");
 
     AwsCredentialsProvider credentialsProvider =
             DefaultCredentialsProvider.builder()
