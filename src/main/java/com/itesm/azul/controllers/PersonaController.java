@@ -28,6 +28,7 @@ public class PersonaController {
         return persona;
     }
     //select all tuples
+    @CrossOrigin(origins = "*")
     @GetMapping("/all")
     public ResponseEntity<Iterable<Persona>> getAll(){
         return ResponseEntity.ok(personaService.lista());
